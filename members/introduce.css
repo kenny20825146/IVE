@@ -121,4 +121,8 @@ table,tr,th,td{
     table,tr,th,td{
         font-size: 18px;
     }
+
+    .remark{
+        display: none;
+    }
 }
