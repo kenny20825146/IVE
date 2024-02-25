@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IVE</title>
+
+    <!-- Bootstrap連結 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome連結 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS連結 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 導覽列 -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <!-- logo -->
+            <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+            <!-- 第一部份：手機版 -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#linkbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- 第二部份：桌上型電腦版 -->
+            <div class="collapse navbar-collapse" id="linkbar">
+                <!-- 列出內容 -->
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">新聞</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ive">團體介紹</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#member">成員介紹</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#songlist">音樂作品</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#socialmedia">社群媒體</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 新聞 -->
+        <div class="news" id="news">
+            <h2>IVE 2024台灣演唱會</h2>
+            <p>2024/03/02、2024/03/03</p>
+            <p><a href="https://www.klook.com/zh-TW/event-detail/101021022-2024-ive-concert-taipei/" target="_blank">瞭解詳情</a></p>
+        </div>
+
+    <!-- 團體介紹 -->
+    <div class="ive" id="ive">
+        <h1>IVE</h1>
+        <p>IVE是韓國STARSHIP娛樂於2021年推出的六人女子音樂組合，也是該經紀公司繼2016年宇宙少女後時隔五年推出女子偶像團體。成員包括Gaeul、Yujin、Rei、Wonyoung、Liz和Leeseo，並由Yujin擔任隊長，於2021年12月1日以單曲專輯《ELEVEN》出道。</p>
+        <h1>團體資料</h1>
+        <p>《團名由來》
+            <br>團名IVE，具有「I HAVE」的意思，寓意將所擁有的東西全部展現出來，不是作為成長型組合，而是以完成體組合向大眾展現「擁有的東西」（I HAVE）。           
+            <br>《歌迷名稱》
+            <br>2021年12月9日在其官方社交媒體帳戶上發表了名為「IVE 아이브 OFFICIAL FAN CLUB 'DIVE'」的影片，公開粉絲名為「DIVE」。「DIVE」一詞是由「IVE」的英文發音和「Dive into IVE」的意思組合而成的。「Dive into IVE」是IVE的團體問候語，表示粉絲們要沉浸在IVE的音樂和魅力中，體現了IVE對粉絲們的期待和信任，希望他們能夠一起享受音樂和舞台。           
+            <br>《應援物品》
+            <br>2022年7月22日官方SNS公開專屬應援物品官方亞克力手燈並販售，2023年1月2日公布第二代的應援手燈。    
+            <br>二代手燈水晶球手柄嵌入了以IVE的標誌為設計的字體，字體下方為邱比特箭並且字體與箭頭皆可旋轉。手燈按鈕是逗號，逗號是IVE官方標誌英文i小寫上的點。
+        </p>
+    </div>
+
+    <!-- 介紹卡 -->
+    <div class="container-card text-center" id="member">
+        <div class="row">
+            <!-- Gaeul -->
+            <div class="col-sm-2">
+                <div class="card">
+                    <div class="banner-image"></div>
+                    <a href="members/Gaeul.html" target="_blank"><img src="images/Gaeul.png" alt="profile pic" class="profile-img"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Gaeul</h5>
+                        <p class="card-text">副Rapper</p>
+                        <a href="members/Gaeul.html"  target="_blank" class="btn btn-primary">詳細資料</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Leeseo -->
+            <div class="col-sm-2">
+                <div class="card">
+                    <div class="banner-image"></div>
+                    <a href="members/Leeseo.html" target="_blank"><img src="images/Leeseo.jpg" alt="profile pic" class="profile-img"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Leeseo</h5>
+                        <p class="card-text">老么、領舞、副唱</p>
+                        <a href="members/Leeseo.html" target="_blank" class="btn btn-primary">詳細資料</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Liz -->
+            <div class="col-sm-2">
+                <div class="card">
+                    <div class="banner-image"></div>
+                    <a href="members/Liz.html" target="_blank"><img src="images/Liz.jpg" alt="profile pic" class="profile-img"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Liz</h5>
+                        <p class="card-text">主唱</p>
+                        <a href="members/Liz.html" target="_blank" class="btn btn-primary">詳細資料</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Rei -->
+            <div class="col-sm-2">
+                <div class="card">
+                    <div class="banner-image"></div>
+                    <a href="members/Rei.html" target="_blank"><img src="images/Rei.png" alt="profile pic" class="profile-img"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Rei</h5>
+                        <p class="card-text">Rapper</p>
+                        <a href="members/Rei.html" target="_blank" class="btn btn-primary">詳細資料</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Wonyoung -->
+            <div class="col-sm-2">
+                <div class="card">
+                    <div class="banner-image"></div>
+                    <a href="members/Wonyoung.html" target="_blank"><img src="images/Wonyoung.jpg" alt="profile pic" class="profile-img"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Wonyoung</h5>
+                        <p class="card-text">Center及Vocal</p>
+                        <a href="members/Wonyoung.html" target="_blank" class="btn btn-primary">詳細資料</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Yujin -->
+            <div class="col-sm-2">
+                <div class="card">
+                    <div class="banner-image"></div>
+                    <a href="members/Yujin.html" target="_blank"><img src="images/Yujin.jpg" alt="profile pic" class="profile-img"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Yujin</h5>
+                        <p class="card-text">隊長</p>
+                        <a href="#" class="btn btn-primary">詳細資料</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 音樂作品 -->
+    <div class="songlist" id="songlist">
+        <h3>音樂作品</h3>
+        <h3>韓國</h3>
+        <h3>《正規專輯》</h3>
+        <table>
+            <tr>
+                <th>推出時間</th>
+                <th>專輯名</th>
+            </tr>
+            <tr>
+                <td>2023-04-10</td>
+                <td>I've IVE</td>
+            </tr>
+        </table>
+        <h3>《迷你專輯》</h3>
+        <table>
+            <tr>
+                <th>推出時間</th>
+                <th>專輯名</th>
+            </tr>
+            <tr>
+                <td>2023-10-13</td>
+                <td>I'VE MINE</td>
+            </tr>
+        </table>
+        <h3>《單曲專輯》</h3>
+        <table>
+            <tr>
+                <th>推出時間</th>
+                <th>專輯名</th>
+            </tr>
+            <tr>
+                <td>2021-12-01</td>
+                <td>ELEVEN</td>
+            </tr>
+            <tr>
+                <td>2022-04-05</td>
+                <td>LOVE DIVE</td>
+            </tr>
+            <tr>
+                <td>2022-08-22</td>
+                <td>After LIKE</td>
+            </tr>
+        </table>
+        <h3>《合作單曲》</h3>
+        <table>
+            <tr>
+                <th>推出時間</th>
+                <th>歌曲</th>
+                <th>參與成員</th>
+                <th>合作成員</th>
+            </tr>
+            <tr>
+                <td>2022-06-20</td>
+                <td><a href="https://youtu.be/EkiMQaWc5ZI">Move Like This</a></td>
+                <td>Yujin</td>
+                <td>金妍兒、姜丹尼爾</td>
+            </tr>
+            <tr>
+                <td>2022-06-28</td>
+                <td><a href="https://youtu.be/ur6IoC1B3-M">BLUE & BLACK</a></td>
+                <td>Wonyoung、Leeseo</td>
+                <td>OH MY GIRL(效定、Arin)、CRAVITY(世琳、廷謨)</td>
+            </tr>
+            <tr>
+                <td>2023-11-16</td>
+                <td><a href="https://youtu.be/N68rwFjyinI">NOBODY</a></td>
+                <td>Liz</td>
+                <td>(G)I-DLE(田小娟)、aespa(Winter)</td>
+            </tr>
+        </table>
+        <h3>《特別單曲》</h3>
+        <table>
+            <tr>
+                <th>推出時間</th>
+                <th>歌曲</th>
+                <th>參與成員</th>
+            </tr>
+            <tr>
+                <td>2022-11-16</td>
+                <td><a href="https://open.spotify.com/track/7DMsSbvw9BOp4BpxraTtNX?si=a730bdcc2b3d4ff8" target="_blank">After LIKE(Holiday Remix)</a></td>
+                <td>全員</td>
+            </tr>
+            <tr>
+                <td>2023-07-13</td>
+                <td><a href="https://open.spotify.com/album/1BxRutqDtvMJfiovw76gxe?si=sHpCCW28SCq62YDOJZ4ccQ" target="_blank">I WANT</a></td>
+                <td>全員</td>
+            </tr>
+            <tr>
+                <td>2023-12-22</td>
+                <td><a href="https://open.spotify.com/track/0mIq6bZT7BfeJ7WG8duSMZ?si=5d6bf7da993b498d">소원을 빌어 (This Wish)</a></td>
+                <td>Yujin</td>
+            </tr>
+        </table>
+        <h3>日本</h3>
+        <h3>迷你專輯</h3>
+        <table>
+            <tr>
+                <th>推出時間</th>
+                <th>專輯名</th>
+            </tr>
+            <tr>
+                <td>2023-05-31</td>
+                <td>WAVE</td>
+            </tr>
+        </table>
+        <h3>單曲專輯</h3>
+        <table>
+            <tr>
+                <th>推出時間</th>
+                <th>專輯名</th>
+                <th>曲目</th>
+            </tr>
+            <tr>
+                <td>2022-10-19</td>
+                <td>ELEVEN -Japanese ver.-</td>
+                <td>1.ELEVEN -Japanese version-
+                    <br>
+                    <a href="https://youtu.be/36x5B46WamM" target="_blank">2.Queen of Hearts</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- 社群媒體 -->
+    <div class="socialmedia" id="socialmedia">
+        <h4>社群媒體</h4>
+        <p><a href="http://ive-official.com/?ckattempt=1" target="_blank">官方網站<i class="fa-solid fa-house"></i></a>
+            <a href="https://www.youtube.com/channel/UC-Fnix71vRP64WXeo0ikd0Q" target="_blank">YouTube<i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/ivestarship/" target="_blank">Instagram<i class="fa-brands fa-instagram"></i></a>
+            <br><a href="https://www.facebook.com/IVEstarship" target="_blank">Facebook<i class="fa-brands fa-facebook"></i></a>
+            <a href="https://open.spotify.com/artist/6RHTUrRF63xao58xh9FXYJ?si=oOCcbOMpRYClS7C2WjcDqQ" target="_blank">Spotify<i class="fa-brands fa-spotify"></i></a>
+            <a href="https://twitter.com/IVEstarship" target="_blank">Twitter<i class="fa-brands fa-twitter"></i></a>
+        </p>
+    </div>
+    <!-- Footer -->
+    <footer>本平台僅供學習、展示之用</footer>
+</body>
+</html>

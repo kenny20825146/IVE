@@ -1,0 +1,124 @@
+body{
+    background-color: pink;
+}
+/* 標題 */
+h1{
+    text-align: center;
+    font-size: 50px;
+    background-color: chocolate;
+}
+
+/* 主標題 */
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background-color: seagreen;
+    margin-top: -8px;
+}
+
+/* 副標題 */
+h3{
+    text-align: center;
+    background-color: purple;
+    color: plum;
+    font-size: 50px;
+}
+
+/* 人物簡介 */
+#people{
+    border: solid;
+    background-color: chocolate;
+    text-align: left;
+    font-size: 20px;
+    height: 50%;
+}
+#people img{
+    width: 100%;
+}
+#people p{
+    color: white;
+}
+#people a{
+    color: purple;
+    font-size: 30px;
+}
+
+/* 內容 */
+.introduce{
+    border: solid;
+    text-align: center;
+    font-size: 30px;
+}
+.career{
+    border: solid;
+    text-align: center;
+    font-size: 30px;
+}
+.career p{
+    text-align: left;
+}
+.career ul{
+    text-align: left;
+}
+/* 作品 */
+.work{
+    border: solid;
+}
+table,tr,th,td{
+    border: solid black;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* RWD用 */
+.people-rwd{
+    display: none;
+}
+
+/* RWD */
+@media (max-width:1200px) {
+    /* 人物簡介 */
+    .people-rwd{
+        display: block;
+        border: solid;
+        text-align: center;
+        font-size: 20px;
+    }
+    .people-rwd a{
+        color: purple;
+        font-size: 30px;
+    }
+
+    #people{
+        display: none;
+    }
+    /* 內容 */
+    .information{
+        margin-left: 15%;
+    }
+    .introduce{
+        border: solid;
+        text-align: left;
+        font-size: 20px;
+    }
+    .career{
+        border: solid;
+        text-align: left;
+        font-size: 20px;
+    }
+    /* 作品 */
+    table,tr,th,td{
+        font-size: 20px;
+    }
+}
+
+@media (max-width:770px) {
+    table,tr,th,td{
+        font-size: 18px;
+    }
+}
