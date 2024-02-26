@@ -84,6 +84,20 @@ body{
     font-size: 20px;
 }
 
+/* 演藝經歷 */
+.experience{
+    background-color: sandybrown;
+    margin-bottom: -15px;
+}
+.experience h1{
+    text-align: center;
+    font-size: 50px;
+    background-color: seagreen;
+}
+.experience p{
+    font-size: 20px;
+}
+
 /* 音樂作品 */
 .songlist{
     background-color: slateblue;
@@ -106,6 +120,14 @@ table,tr,th,td{
 }
 .songlist a:hover {
     text-decoration: underline;
+}
+
+.caption{
+    background-color: black;
+    margin-bottom: -5px;
+}
+.nation{
+    background-color: brown;
 }
 
 /* 社群媒體 */

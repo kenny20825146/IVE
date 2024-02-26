@@ -125,4 +125,7 @@ table,tr,th,td{
     .remark{
         display: none;
     }
+    .album{
+        display: none;
+    }
 }
